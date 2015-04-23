@@ -10,18 +10,20 @@
 Pod::Spec.new do |s|
   s.name             = "StyleGun-iOS"
   s.version          = "0.1.0"
-  s.summary          = "A short description of StyleGun-iOS."
+  s.summary          = "Shoot from the hip style guide for iOS"
   s.description      = <<-DESC
-                       An optional longer description of StyleGun-iOS
+                        StyleGun provides a collection of categories on common
+                        design resources that are ready for designers to directly
+                        change.
 
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                        Developers just need to run `$ pod install` to integrate design changes
+
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/StyleGun-iOS"
+  s.homepage         = "https://github.com/carbonfive/StyleGun-iOS"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Nick" => "nick@carbonfive.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/StyleGun-iOS.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/carbonfive/StyleGun-iOS.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
@@ -31,8 +33,4 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'StyleGun-iOS' => ['Pod/Assets/*.png']
   }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

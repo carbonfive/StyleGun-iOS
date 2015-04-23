@@ -1,0 +1,25 @@
+{
+  "name": "StyleGun-iOS",
+  "version": "0.1.0",
+  "summary": "StyleGun-iOS.",
+  "description": "                        StyleGun-iOS\n",
+  "homepage": "https://github.com/carbonfive/StyleGun-iOS",
+  "license": "MIT",
+  "authors": {
+    "Nick": "nick@carbonfive.com"
+  },
+  "source": {
+    "git": "https://github.com/carbonfive/StyleGun-iOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "StyleGun-iOS": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

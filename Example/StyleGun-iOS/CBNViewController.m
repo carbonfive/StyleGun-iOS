@@ -7,6 +7,7 @@
 //
 
 #import "CBNViewController.h"
+#import <StyleGun-iOS/StyleGun-iOS.h>
 
 @interface CBNViewController ()
 
